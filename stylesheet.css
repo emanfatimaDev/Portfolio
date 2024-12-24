@@ -1,0 +1,116 @@
+
+ .main{
+  background-color:cornsilk;
+  border: 3px solid black;
+ }
+
+
+.link{
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	color: #007bff;
+
+}
+
+.row1c1{
+
+  float: left;
+}
+.row1c2{
+
+float: left;
+
+}
+.service{
+	background-color: #f5f5f5;
+border: 3px solid black;
+}
+.about{
+	background-color: #fffaf0;
+  border: 3px solid black;
+}
+.tutorials{
+	background-color: #fffaf0;
+  border: 3px solid black;
+}
+.contact{
+	background-color: #fdf5e6;
+
+}
+.row1{
+  float: left;
+}
+.row1c1{
+  float: left;
+}
+.row1c2{
+  float: left;
+  gap:30px;
+}
+
+footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.footer-section h3 {
+  color: #007bff; /* Blue color for headings */
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff; /* White links */
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-links li a:hover {
+  color: #007bff; /* Highlight social icons with blue on hover */
+}
